@@ -1,4 +1,4 @@
-module gin-rest-api-example
+module taskk
 
 go 1.14
 
