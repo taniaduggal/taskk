@@ -20,7 +20,8 @@ jobs:
       run: go mod download   
 
     - name: Run Build
-      run: go build -o ./cmd/server
+      run: go build -o ./cmd/server/myapp ./cmd/server
+
 
     - name: Build Docker Image
       run: |
