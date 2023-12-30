@@ -1,3 +1,12 @@
+# For onepane task, 
+
+i have created a cd pipeline to build and push the image to Dockerhub.
+
+Link of public image:
+
+and also i changed the version of base image in Dockerfile.
+
+
 ![workflow](https://github.com/zacscoding/gin-rest-api-example/actions/workflows/check.yaml/badge.svg)
 
 # Rest API with golang and gin, gorm  
