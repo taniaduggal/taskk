@@ -21,9 +21,6 @@ jobs:
           go mod tidy
           go mod download
 
-      - name: Run Build
-        run: go build -o article-server ./cmd/server
-
       - name: Run Make Build
         run: make build
 
